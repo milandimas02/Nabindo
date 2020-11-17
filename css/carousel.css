@@ -1,0 +1,661 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+img{
+max-width:100%; max-height:100%;
+
+}
+
+.logo{
+	margin-top:10px
+}
+
+li{
+	
+}
+.btn-system.btn-border{
+	background-color: transparent;
+	color:#FFFFFF;
+	border-color: transparent;
+	width:auto;
+}
+
+.btn-medium{
+	font-size:20px;
+}
+
+body {
+	padding-bottom: 0px;
+	padding-top: 5px;
+	background-color: #4E011E;
+	/*background-image: url('../img/slide-1.png');*/
+	background-size:cover;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	-moz-background-size:cover;
+	background-attachment:fixed;
+	font-family : Calibri, Arial, sans-serif;
+}
+
+.main{
+	margin-top:3px;
+	background-color:#FFFFFF;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:30px;
+	padding-right:30px;
+	font-size:16px;
+}
+
+.main4{
+	margin-top:3px;
+	background-color:#FFFFFF;
+	padding-top:50px;
+	padding-bottom:100px;
+	padding-left:30px;
+	padding-right:30px;
+	font-size:16px;
+	
+}
+
+.main3{
+	margin-top:5px;
+	background-color:#FFFFFF;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:30px;
+	padding-right:30px;
+	font-size:16px;
+	
+}
+.main2{
+	margin-top:5px;
+	background-color:#FFFFFF;
+	padding-top:0px;
+	padding-bottom:0px;
+	
+}
+.main1{
+	margin-top:5px;
+	background:rgb(247, 247, 247);;
+	color:#black;
+	padding-top:5px;
+	padding-bottom:25px;
+	padding-left:30px;
+	padding-right:30px;
+	font-family : Calibri, Arial, sans-serif;
+	font-size:17px;
+	
+}
+
+.transparent{
+ background:rgba(2, 2, 2, 0.5);
+ width: 50%;
+ height:350px;
+ padding:10px;
+ margin:0px auto;
+ color:#fff;
+}
+
+.orangganteng
+{
+	padding-top:20px;
+	padding-right:40px;
+	padding-left:40px;
+	padding-bottom:20px;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: 100*;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  padding-top:0px;
+  padding-bottom:10px;
+  height: 550px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 550px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: center;
+  top: 0;
+  left: 0;
+  width: 1360px;
+  height: 550px;
+}
+
+.carousel-control.left {
+    margin-left:6px;
+    /*background: #747576;
+    background-size: 8px 8px;
+    border: 1px solid #bbb;
+    border-color: #747576;*/
+    /*-webkit-border-radius: 50%;*/
+    height: 50px;
+    margin-top: -25px;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    display:none;
+}
+
+.carousel-control.right {
+    margin-right:6px;
+    /*background: #747576;
+    background-size: 8px 8px;
+    border: 1px solid #bbb;
+    border-color: #747576;*/
+    /*-webkit-border-radius: 50%;*/
+    height: 50px;
+    margin-top: -25px;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    display:none;
+}
+
+.carousel.col-xs-5 {
+    width:450px;
+}
+.carousel.col-xs-6 { 
+    width:450px;
+}
+.carousel.col-xs-7 {
+    width:500px;
+}
+ 
+.carousel:hover .carousel-control.left, .carousel:hover .carousel-control.right {
+    display:block;
+}
+
+.slide-caption.left{
+    left: -170px;
+    line-height: 32px;
+    position: relative;
+    top: 10px;
+    z-index: 1;   
+    background-color: #E3E7E8;
+    color: #0B0B0B;
+    font-size: 24px;
+    width: 350px;
+    height: 350px;
+	border: 5px solid;
+    border-color: #5A5B5C;
+    border-radius: 50%; 
+    line-height: 36px;
+    padding-top: 80px;
+    margin-bottom: 10px;
+    margin-right: 2px;
+    margin-left: 5px;
+    vertical-align: middle;
+    
+}
+.slide-caption.atas{
+    right:-780px;
+    line-height: 32px;
+    position: relative;
+    top: 20px;
+    z-index: 1;   
+    background-color: #transparent;
+    color: #transparent;
+    font-size: 24px;
+    width: 350px;
+    height: 350px;
+	border:0px solid;
+    border-color: #transparent;
+    border-radius: 50%; 
+    line-height: 36px;
+    padding-top: 80px;
+    margin-bottom: 10px;
+    margin-right: 2px;
+    margin-left: 5px;
+    vertical-align: middle;
+    
+}
+
+.slide-caption.center {
+    text-align: center;
+    top: 60px;
+    position: relative;
+}
+
+.row-centered{
+	text-align:center;
+}
+.col-lefted{
+	float:none;
+	display:inline-block;
+	text-align:center;
+}
+.col-centered{
+	float:none;
+	display:inline-block;
+	text-align:center;
+}
+
+.col-righten{
+	float:none;
+	display:inline-block;
+	text-align:right;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+
+/*---NAVBAR---*/
+.nav-justified {
+  background-color: #B0B0B0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.nav-justified > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /*margin-bottom: 10px;*/
+  font-weight: bold;
+  color: #020202;
+  text-align: center;
+  background-color: #24282D; /* Old browsers */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e5e5e5));
+  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+  background-image:      -o-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+  background-image:         linear-gradient(to bottom, #f5f5f5 0%,#e5e5e5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5D5D5D', endColorstr='#515151',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  border-bottom: 1px solid #d5d5d5;
+}
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
+  background-color: #ddd;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.nav-justified > li:first-child > a {
+  border-radius: 5px 5px 0 0;
+}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+/*---/.navbar-justifiied---*/
+
+
+.footer-distributed1{
+    background-color: #red;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 15px sans-serif;
+    padding: 40px 30px 20px 30px;
+    margin-top: 5px;
+}
+/*---FOOTER----*/
+.footer-distributed{
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 15px sans-serif;
+	margin-top: 5px;
+    padding: 40px 30px 20px 30px;
+    
+}
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+.footer-distributed .footer-left{
+    width: 20%;
+}
+
+/* The company logo */
+.footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+.footer-distributed h3 span{
+    color:  #5383d3;
+}
+
+/* Footer links */
+.footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+.footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+.footer-distributed .footer-company-name{
+    color:  #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+.footer-distributed .footer-center{
+    width: 55%;
+}
+.footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 30px;
+    vertical-align: middle;
+}
+.footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+.footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+}
+.footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+}
+.footer-distributed .footer-center p a{
+    color:  #5383d3;
+    text-decoration: none;
+}
+
+/* Footer Right */
+.footer-distributed .footer-right{
+    width: 20%;
+}
+.footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+.footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer-distributed .footer-icons{
+    margin-top: 25px;
+}
+.footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer{
+	background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 13px sans-serif;
+	margin-top: 5px;
+    padding: 20px 10px 10px 20px;
+    font-family : Calibri, Arial, sans-serif;
+}
+
+.footer i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 24px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 2px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.footer i.fa-envelope{
+    font-size: 15px;
+    line-height: 38px;
+}
+.footer p{
+    display: inline-block;
+    font-size: 15px;
+    color: #8f9296;
+    vertical-align: middle;
+    font-family : Calibri, Arial, sans-serif;
+}
+.footer p a{
+    color:  #5383d3;
+    text-decoration: none;
+    font-family : Calibri, Arial, sans-serif;
+}
+
+.footer-bottom{
+	background-color:#101410;
+	padding:5px;
+	text-align:center;
+	color:  #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+	
+}
+@media (max-width: 880px) {
+    .footer-distributed{
+        font: bold 14px sans-serif;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i{
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+/*----------ID---------*/
+
+#sosial{
+	color:#6C8E79;
+	text-decoration:none;
+}
+
+#title{
+	font-family: 'tulisan_keren';
+}
+
+@font-face{
+	  font-family: tulisan_keren;
+        src: url(../font/glyphicons-halflings-regular.ttf);
+}
+
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+#bahan{
+	border-radius:50%;
+	border: 3px solid;
+    border-color: #747576;
+	
+}
+
+#main-wrapper {
+background: #4DB64A;
+}
+
+
+/*login*/
+
+.login {
+margin-bottom:5px;
+}
+
+.dropdown-menu {
+    width: 280px !important;
+}
+li{
+list-style:none;
+}
+
